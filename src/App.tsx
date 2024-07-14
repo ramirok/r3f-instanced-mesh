@@ -5,7 +5,7 @@ import UI from "./UI";
 
 function App() {
   return (
-    <div className="h-screen w-screen bg-neutral-600 relative">
+    <div className="bg-neutral-600 relative flex justify-center max-w-screen-2xl mx-auto h-screen">
       <Canvas camera={{ position: [70, 0, -70], fov: 60 }}>
         <Scene />
         <OrbitControls />
